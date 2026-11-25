@@ -1,0 +1,16 @@
+{
+  "name": "carbazaar-root",
+  "version": "1.0.0",
+  "description": "CarBazaar - Used Car Listing Portal (MERN + Vite)",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently -n \"API,WEB\" -c \"blue,orange\" \"npm --prefix server start\" \"npm --prefix client run dev\"",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500">
+  <rect width="840" height="500" fill="#153B66" />
+  <rect x="0" y="355" width="840" height="145" fill="#0E2948" />
+  <ellipse cx="420" cy="364" rx="280" ry="18" fill="rgba(0,0,0,0.45)" />
+  <path d="M160 320 C166 272, 210 252, 280 242 L345 182 C382 164, 495 162, 575 174 L630 232 C672 242, 696 260, 700 294 L700 322 C700 336, 684 344, 662 344 L182 344 C166 344, 158 336, 160 320 Z" fill="#2878C8" stroke="rgba(255,255,255,0.35)" stroke-width="2" />
+  <circle cx="268" cy="342" r="46" fill="#18181B" stroke="#94A3B8" stroke-width="3" />
+  <circle cx="590" cy="342" r="46" fill="#18181B" stroke="#94A3B8" stroke-width="3" />
+  <text x="420" y="96" fill="#FFFFFF" font-family="Plus Jakarta Sans, sans-serif" font-size="24" font-weight="800" text-anchor="middle">CarBazaar Verified Vehicle</text>
+  <text x="420" y="126" fill="#93C5FD" font-family="Inter, sans-serif" font-size="14" text-anchor="middle">Preview image ready • Contact seller for additional photos</text>
+</svg>

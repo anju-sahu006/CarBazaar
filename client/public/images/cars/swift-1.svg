@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 500" width="840" height="500">
+  <defs>
+    <linearGradient id="bg-swift-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E2948" />
+      <stop offset="65%" stop-color="#1E4E84" />
+      <stop offset="100%" stop-color="#091B30" />
+    </linearGradient>
+    <radialGradient id="spot-swift-1" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#091B30" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="paint-swift-1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D62828" />
+      <stop offset="55%" stop-color="#D62828" />
+      <stop offset="100%" stop-color="#9B1B1B" />
+    </linearGradient>
+    <linearGradient id="glass-swift-1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#93C5FD" stop-opacity="0.72" />
+      <stop offset="50%" stop-color="#1E3A8A" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="floor-swift-1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3A5F" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#071526" />
+    </linearGradient>
+  </defs>
+
+  <rect width="840" height="500" fill="url(#bg-swift-1)" />
+  <rect width="840" height="500" fill="url(#spot-swift-1)" />
+
+  <!-- Architectural showroom lines -->
+  <line x1="0" y1="355" x2="840" y2="355" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <rect x="0" y="355" width="840" height="145" fill="url(#floor-swift-1)" />
+  <ellipse cx="420" cy="368" rx="315" ry="26" fill="rgba(0,0,0,0.58)" />
+  <ellipse cx="420" cy="362" rx="275" ry="14" fill="rgba(0,0,0,0.65)" />
+
+  <!-- Header metadata -->
+  <rect x="28" y="24" width="166" height="28" rx="14" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" />
+  <text x="111" y="42" fill="#FDBA74" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1.2">SHOWROOM EXTERIOR</text>
+
+  <text x="812" y="42" fill="rgba(255,255,255,0.72)" font-family="Inter, Segoe UI, sans-serif" font-size="13" font-weight="600" text-anchor="end">2021 • HATCHBACK</text>
+
+  <g >
+    <!-- Car Body -->
+    <path d="M145 320 C148 274, 190 256, 255 245 L322 186 C355 166, 465 164, 545 174 L608 242 C655 248, 692 264, 698 296 L700 322 C700 336, 685 344, 665 344 L165 344 C148 344, 142 336, 145 320 Z" fill="url(#paint-swift-1)" stroke="rgba(255,255,255,0.28)" stroke-width="2" />
+    <!-- Gloss highlight -->
+    <path d="M235 248 Q420 232 620 245" fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="3" stroke-linecap="round" />
+    <!-- Side crease -->
+    <path d="M180 296 L650 286" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2" />
+
+    <!-- Windows -->
+    <path d="M276 240 L330 192 C362 176, 456 174, 526 184 L578 238 L276 240 Z" fill="url(#glass-swift-1)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5" />
+    <line x1="430" y1="168" x2="420" y2="236" stroke="#0F172A" stroke-width="10" stroke-linecap="round" />
+
+    <!-- Headlight & Taillight -->
+    <path d="M130 274 L176 266 L168 286 L128 290 Z" fill="#F8FAFC" stroke="#93C5FD" stroke-width="1.5" />
+    <path d="M675 262 L712 268 L710 288 L672 282 Z" fill="#EF4444" stroke="#FCA5A5" stroke-width="1.5" />
+
+    <!-- Door handles -->
+    <rect x="360" y="264" width="28" height="6" rx="3" fill="rgba(255,255,255,0.55)" />
+    <rect x="488" y="262" width="28" height="6" rx="3" fill="rgba(255,255,255,0.55)" />
+
+    <!-- Side mirror -->
+    <path d="M276 238 L296 226 L308 238 L284 246 Z" fill="#D62828" stroke="rgba(255,255,255,0.28)" stroke-width="1.5" />
+
+    <!-- Wheel arches -->
+    <circle cx="242" cy="342" r="56" fill="#09111E" />
+    <circle cx="604" cy="342" r="56" fill="#09111E" />
+
+    <!-- Front & Rear Alloy Wheels -->
+    <g transform="translate(242,342)">
+      <circle r="48" fill="#18181B" stroke="#3F3F46" stroke-width="3" />
+      <circle r="32" fill="#CBD5E1" stroke="#94A3B8" stroke-width="2" />
+      <circle r="10" fill="#1E293B" />
+      <line x1="0" y1="-30" x2="0" y2="30" stroke="#475569" stroke-width="5" />
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#475569" stroke-width="5" />
+      <line x1="-21" y1="-21" x2="21" y2="21" stroke="#475569" stroke-width="4" />
+      <line x1="21" y1="-21" x2="-21" y2="21" stroke="#475569" stroke-width="4" />
+      <circle r="6" fill="#F97316" />
+    </g>
+    <g transform="translate(604,342)">
+      <circle r="48" fill="#18181B" stroke="#3F3F46" stroke-width="3" />
+      <circle r="32" fill="#CBD5E1" stroke="#94A3B8" stroke-width="2" />
+      <circle r="10" fill="#1E293B" />
+      <line x1="0" y1="-30" x2="0" y2="30" stroke="#475569" stroke-width="5" />
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#475569" stroke-width="5" />
+      <line x1="-21" y1="-21" x2="21" y2="21" stroke="#475569" stroke-width="4" />
+      <line x1="21" y1="-21" x2="-21" y2="21" stroke="#475569" stroke-width="4" />
+      <circle r="6" fill="#F97316" />
+    </g>
+  </g>
+
+  <!-- License Plate & Title Overlay -->
+  <rect x="28" y="424" width="380" height="52" rx="10" fill="rgba(10, 25, 47, 0.78)" stroke="rgba(255,255,255,0.14)" />
+  <text x="44" y="447" fill="#FFFFFF" font-family="Plus Jakarta Sans, Segoe UI, sans-serif" font-size="18" font-weight="800">Maruti Suzuki Swift</text>
+  <text x="44" y="465" fill="#93C5FD" font-family="Inter, Segoe UI, sans-serif" font-size="12" font-weight="600">CarBazaar Certified Inspection • MH 02 FQ 4821</text>
+
+  <rect x="656" y="432" width="156" height="36" rx="8" fill="#FFFFFF" />
+  <rect x="656" y="432" width="24" height="36" rx="4" fill="#1D4ED8" />
+  <text x="668" y="454" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="10" font-weight="800" text-anchor="middle">IND</text>
+  <text x="744" y="455" fill="#0F2942" font-family="monospace" font-size="13" font-weight="800" text-anchor="middle">MH 02 FQ 4821</text>
+</svg>
